@@ -1,0 +1,101 @@
+.logo-container {
+  background-color: #333;
+}
+
+.video-container {
+  height:50vh;
+}
+
+.video-container .video {
+  padding: 0;
+}
+
+.catalog-container {
+  background-color: #333;
+  padding-top: 8vh;
+}
+
+.catalog-container h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.catalog-container .catalog-image img {
+  margin: auto;
+  display: block;
+}
+
+.catalog-container .catalog-image .title {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 10vh;
+}
+
+.statement-container {
+  background-color: #666;
+  max-height: 700px;
+}
+
+.statement-container .statement {
+  padding: 0;
+}
+
+.statement-container .copy {
+  color: #ddd;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  padding: 45px;
+  line-height: 37px;
+}
+
+.statement-container .copy h1 {
+  display: none;
+}
+
+.statement-container img {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.footer-container {
+  background: #444;
+  color: #ddd;
+  height: 20vh;
+  padding-top: 96px;
+  font-size: 16px;
+  color: #eee;
+}
+
+@media (max-width: 767px) {
+  .logo-image {
+    width: 100%;
+  }
+
+  .logo-container {
+    height:50vh;
+  }
+
+  .statement-container {
+    max-height: 1156px;
+  }
+
+  .statement-container .copy {
+    padding: 30px 70px 20px;
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .statement-container .copy h1 {
+    display: block;
+  }
+
+  .footer-container {
+    font-size: 10px;
+    padding: 80px 60px;
+    height: 20vh;
+  }
+}
