@@ -28,6 +28,12 @@
 
 .logo-container {
   background-color: #333;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .video-container {
@@ -102,6 +108,25 @@
       text-decoration: underline;
     }
   }
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
 }
 
 @media (max-width: 1610px) {
@@ -194,12 +219,6 @@
 }
 
 @media (max-width: 767px) {
-  .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .catalog-container {
     padding: 6vh 0 0 0
   }
